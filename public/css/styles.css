@@ -1,0 +1,429 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+.main-header{
+    background-color: #EAC926;
+    padding: 20px;
+}
+
+.logo{
+    width: 45%;
+}
+
+.copy-header{
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.hamburguer-buttom{
+    background-color: #03264C;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+.main-navbar{
+    display: none;
+}
+
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+
+
+header nav{
+    font-size: 12px;
+}
+
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+
+
+.price{
+    font-size: 18px;
+    width: 30%;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.description{
+    display: none;
+    margin-top: 20px;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+
+article div.main-article{
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.center {
+    text-align: center;
+}
+
+.celeste {
+    color: #1259c3
+}
+
+div.size {
+    font-size: 2em;
+    padding-top: 10px;
+}
+
+.margin {
+    margin-bottom: 10px;
+}
+
+.gris-oscuro {
+    color: #666
+}
+
+div.italic {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+h4.titulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 0.1px;
+
+}
+
+.padding{
+    padding: 15px;
+}
+
+p.font-size{
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer{
+    background-color: #fff;
+    border: solid 4px#ebebeb;
+}
+
+.main-article{
+    position: relative;
+    display: flex;
+}
+
+.create-form{
+    padding: 20px 15px;
+}
+
+.control-formulario{
+    margin-bottom: 15px;
+}
+
+.control-formulario label{
+    padding-top: 20px;
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+
+.control{
+    width: 100%;
+    padding: 8px;
+}
+
+.boton-formulario{
+    background-color: #39b54a;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
+.boton-login{
+    background-color: #1259c3;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.search-form{
+    display: flex;
+    align-self: center;
+    width: 45%;
+}
+
+.campo-busqueda{
+    text-align: center;
+    font-size: 12px;
+    border: none;
+    font-family: roboto;
+    padding:8px;
+    width: 85%;
+}
+.search-button{
+    font-size: 12px;
+    border: none;
+    padding: 8px;
+    background-color: white;
+    width:15%;
+    
+}
+.logo-search{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.boton-login:hover{
+    background-color: #0022AA;
+    transition: all 500ms;
+   
+    
+}
+
+
+
+@media (min-width: 361px){
+    main section article .description{
+        display: none;
+    }
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
+    }
+    .price, .discount {
+        width: 50%;
+    }
+    
+    
+    .form{
+        width: 50%;
+        display: flex;
+        max-height: 40px;
+    }
+    footer{
+        border-top: solid 50px #ebebeb ;
+    }
+    .login{
+        border-top: solid 75px #ebebeb ;
+    }
+   
+    
+}
+
+@media (min-width: 768px){
+    .main-header-top-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .copy-header{
+        max-width: 350px;
+        text-align: right;
+    }
+    .hamburguer-buttom{
+        display: none;
+    }
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .main-navbar ul {
+        display: flex;
+    }
+    .main-navbar li {
+        margin: 0 5px;
+    }
+    .products{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    article{
+        width: 45%;
+        
+    }
+    main section article .description{
+        display: none;
+    }
+    main section article{
+        box-shadow: none;
+        
+    }
+    main section article:hover .description{
+        display: block;
+    }
+    main section article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    main section article i{
+        transition: transform 1000ms;
+    }
+   
+    main section article:hover i{
+        transform: rotateZ(-90deg);
+    }
+    article.width{
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 1024px){
+    .logo{
+        width: 75%;
+    }
+    .main-header-top-bar, .main-navbar{
+        max-width: 1200;
+        margin: auto;
+    }
+    .main-header-top-bar{
+        align-items: center;
+        justify-content: space-between;
+    }
+    .main-navbar{
+        margin-top: 30px;
+    }
+    .main-navbar li {
+        margin: 0 10px;
+    }
+    .main-navbar a {
+        font-size: 19px;
+    }
+    .copy-header{
+        max-width: none;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;  
+    }
+    article{
+        width: 22%;
+    }
+    .footers{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    article.width{
+        width: 33%;
+    }
+    footer section article .cambio{
+        transition: color 1000ms;
+    }
+    footer section article:hover .cambio{
+        color:green;
+    }
+    footer{
+        border-top: solid 50px #ebebeb ;
+    }
+    .login{
+        border-top: solid 175px #ebebeb ;
+    }
+}
+
+ 
