@@ -14,9 +14,6 @@ body{
     padding: 20px;
 }
 
-.logo{
-    width: 45%;
-}
 
 .copy-header{
     font-weight: 400;
@@ -252,8 +249,10 @@ footer{
 
 .search-form{
     display: flex;
+    justify-content: space-between;
     align-self: center;
-    width: 45%;
+    width: 43%;
+    
 }
 
 .campo-busqueda{
@@ -263,6 +262,7 @@ footer{
     font-family: roboto;
     padding:8px;
     width: 85%;
+    border-radius: 2px;
 }
 .search-button{
     font-size: 12px;
@@ -270,19 +270,25 @@ footer{
     padding: 8px;
     background-color: white;
     width:15%;
+    border-radius: 2px;
     
 }
-.logo-search{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+
 .boton-login:hover{
     background-color: #0022AA;
     transition: all 500ms;
-   
-    
 }
+.padding-right{
+    padding-right: 10px;
+}
+
+.none{
+    display: none;
+}
+.none1{
+    display: block;
+}
+
 
 
 
@@ -297,7 +303,11 @@ footer{
     .price, .discount {
         width: 50%;
     }
-    
+    .main-header-top-bar{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
     
     .form{
         width: 50%;
@@ -315,13 +325,9 @@ footer{
 }
 
 @media (min-width: 768px){
-    .main-header-top-bar{
-        display: flex;
-        justify-content: space-between;
-    }
     .copy-header{
-        max-width: 350px;
-        text-align: right;
+        text-align: center;
+        font-size: 13px;
     }
     .hamburguer-buttom{
         display: none;
@@ -370,13 +376,23 @@ footer{
     article.width{
         width: 100%;
     }
+    .main-header-top-bar{
+        flex-wrap: nowrap;
+    }
+    .none{
+        display: block;
+    }
+    .none1{
+        display: none;
+    }
+    .logo{
+        width: 200px;
+    }
+    
     
 }
 
 @media (min-width: 1024px){
-    .logo{
-        width: 75%;
-    }
     .main-header-top-bar, .main-navbar{
         max-width: 1200;
         margin: auto;
@@ -395,8 +411,7 @@ footer{
         font-size: 19px;
     }
     .copy-header{
-        max-width: none;
-        font-size: 22px;
+        font-size: 17px;
         font-weight: 400;
         margin: 0;  
     }
@@ -407,6 +422,7 @@ footer{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        padding: 20px 0;
         
     }
     article.width{
@@ -419,7 +435,7 @@ footer{
         color:green;
     }
     footer{
-        border-top: solid 50px #ebebeb ;
+        margin-top: 50px;
     }
     .login{
         border-top: solid 175px #ebebeb ;
