@@ -289,10 +289,7 @@ footer{
     display: block;
 }
 
-
-
-
-@media (min-width: 361px){
+@media (min-width: 360px){
     main section article .description{
         display: none;
     }
@@ -439,6 +436,9 @@ footer{
     }
     .login{
         border-top: solid 175px #ebebeb ;
+    }
+    footer.login{
+        margin-top: 150px;
     }
 }
 
