@@ -14,7 +14,6 @@
 </head>
 
 <body>
-
     <header class="main-header">
         <div class="main-header-top-bar">
             <a href="/" class="logo"><img width="180" src="/images/logo-mercado-liebre.svg"
@@ -57,26 +56,27 @@
     </header>
 
     <main>
+        <h2 class="title">Creá tu cuenta</h2>
         <form action="#" method="POST">
             <div class="control-formulario">
                 <label for="name">Nombre completo:</label>
-                <input type="text" name="nombre" id="name" placeholder="Nombre y apellido" class="control">
+                <input type="text" name="nombre" id="name" placeholder="Nombre y apellido" class="control" required minlength="4">
             </div>
             <div class="control-formulario">
                 <label for="user">Nombre de usuario:</label>
-                <input type="text" name="usuario" id="user" placeholder="Usuario" class="control">
+                <input type="text" name="usuario" id="user" placeholder="Usuario" class="control" required minlength="4">
             </div>
             <div class="control-formulario">
                 <label for="email">Email:</label>
-                <input type="mail" name="mail" id="email" placeholder="E-mail" class="control">
+                <input type="mail" name="mail" id="email" placeholder="E-mail" class="control" required>
             </div>
             <div class="control-formulario">
                 <label for="date" class="negrita">Fecha de nacimiento:</label>
-                <input type="date" name="fecha" value="2000-01-01" class="control">
+                <input type="date" name="fecha" class="control" required>
             </div>
             <div class="control-formulario">
                 <label for="adress">Domilicio:</label>
-                <input type="text" name="adress" id="adress" placeholder="Domicilio" class="control">
+                <input type="text" name="adress" id="adress" placeholder="Domicilio" class="control" required>
             </div>
             <div>
                 <label for="profile" class="negrita">Perfil de usuario</label>
@@ -105,12 +105,12 @@
             </div>
             <div class="control-formulario">
                 <label for="password">Contraseña</label>
-                <input type="password" name="password" id="password" placeholder="Elegí tu contraseña" class="control">
+                <input type="password" name="password" id="password" placeholder="Elegí tu contraseña" class="control" required minlength="5"> 
             </div>
             <div class="control-formulario">
                 <label for="password">Repetir contraseña</label>
                 <input type="password" name="password" id="password" placeholder="Confirma tu contraseña"
-                    class="control">
+                    class="control" required minlength="5">
             </div>
             <br>
             <div>

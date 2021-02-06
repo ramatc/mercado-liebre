@@ -209,18 +209,20 @@ footer{
 
 .control-formulario{
     margin-bottom: 15px;
+    font-weight: bold;
 }
 
 .control-formulario label{
-    padding-top: 20px;
+    padding-top: 10px;
     margin-bottom: 5px;
-    font-style: italic;
     display: block;
 }
 
 .control{
     width: 100%;
     padding: 8px;
+    border: none;
+    border-radius: 5px;
 }
 
 .boton-formulario{
@@ -287,6 +289,13 @@ footer{
 }
 .none1{
     display: block;
+}
+.title{
+font-weight: 700;
+    color: #727272;
+    margin: 30px auto 12px;
+    width: 100%;
+    font-size: 24px;
 }
 
 @media (min-width: 360px){
