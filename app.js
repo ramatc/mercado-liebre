@@ -6,8 +6,6 @@ const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true })); 
 
-
-
 const publicPath = path.resolve("./public") ;
 app.use( express.static(publicPath) );
 
